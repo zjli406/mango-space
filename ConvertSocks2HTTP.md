@@ -10,7 +10,7 @@ ConvertSocks2HTTP
 
 3. Set npm config in sudo su - 
     
-npm config set proxy http://proxy.company.com:8080
+    npm config set proxy http://proxy.company.com:8080
 
     npm config set https-proxy http://proxy.company.com:8080
     
@@ -18,7 +18,7 @@ npm config set proxy http://proxy.company.com:8080
     
     npm config set https-proxy https://localhost:3128   
 
-4. Remove
+ Remove
 
     npm config delete http-proxy    
     npm config delete https-proxy   
