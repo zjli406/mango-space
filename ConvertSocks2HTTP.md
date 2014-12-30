@@ -1,4 +1,4 @@
-mango-space
+ConvertSocks2HTTP
 ===========
 
 1. download Privoxy, locate its config file in /usr/local/etc/privoxy/. 
@@ -8,12 +8,12 @@ mango-space
     listen-address  0.0.0.0:3128
 
 3. Set npm config in sudo su - 
-npm config set proxy http://proxy.company.com:8080
-npm config set https-proxy http://proxy.company.com:8080
+    npm config set proxy http://proxy.company.com:8080
+    npm config set https-proxy http://proxy.company.com:8080
 
- npm config set proxy http://localhost:3128
- npm config set https-proxy https://localhost:3128
+    npm config set proxy http://localhost:3128
+    npm config set https-proxy https://localhost:3128
 
-remove
-npm config delete http-proxy
-npm config delete https-proxy
+4. Remove
+    npm config delete http-proxy
+    npm config delete https-proxy
