@@ -12,5 +12,6 @@ JavaScript
 - store information on visitor computers
 
 Embed in HTML:  <script type="text/javascript">...code...</script>
+
 Link to External :  <script languange="javascript"src="javacode.js">
 
