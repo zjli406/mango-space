@@ -13,4 +13,4 @@ JavaScript
 
 Embed in HTML:  <script type="text/javascript">...code...</script>
 Link to External :  <script languange="javascript"src="javacode.js">
-<! - hide javascript code //->Stop Hiding Code </script>
+
